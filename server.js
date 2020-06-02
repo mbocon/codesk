@@ -8,6 +8,9 @@ const passport = require('./config/passport')();
 const parser = require('body-parser')
 const cors = require('cors')
 
+
+app.use(express.static('build'));
+
 // Environment Variables
 const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/merncrud';
 
@@ -35,10 +38,11 @@ app.use('/users', userController);
 
 
 
-
 app.get('*', (req, res) => {
 	res.sendFile(path.join(`${__dirname}/build/index.html`));
 });
+
+
 
 app.listen(PORT, () => {
 	console.log('listening on port', PORT)
