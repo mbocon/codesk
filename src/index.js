@@ -1,17 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import { createBrowserHistory } from 'history';
+import { Switch, Route, Router } from 'react-router';
+import App from "./App";
+import Yes from './Yes';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const routes = [
+    {
+        path: '/yes',
+        component: Yes,
+        name: 'Yes-Page'
+    },
+    {
+        path: '/',
+        component: App,
+        name: 'Main-Page'
+    }
+]
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const root = document.getElementById("root");
+const hist = createBrowserHistory();
+
+ReactDOM.render(<Router history={hist}>
+        <Switch>
+            {
+                routes.map((route)=>{
+                    return(
+                        <Route path={route.path} component={route.component} key={route.name}></Route>
+                    )
+                })
+            }
+        </Switch>
+    </Router>, root);
