@@ -4,11 +4,11 @@ import Home from '../Home';
 import Other from '../Other';
 import {Link} from 'react-router-dom';
 
-class Yes extends Component {
+class Login extends Component {
   render() {
     return ( <div className="App">
         <Link to='/'>Go to home</Link>
-        <h1>This is the yes page</h1>
+        <h1>This is the login page</h1>
         <Home />
         <Other />
       </div>
@@ -16,4 +16,4 @@ class Yes extends Component {
   }
 }
 
-export default Yes;
+export default Login;

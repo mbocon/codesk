@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 import { createBrowserHistory } from 'history';
 import { Switch, Route, Router } from 'react-router';
 import App from "./App";
-import Yes from './Yes';
+import Login from './Login';
 
 const routes = [
     {
-        path: '/yes',
-        component: Yes,
-        name: 'Yes-Page'
+        path: '/login',
+        component: Login,
+        name: 'Login-Page'
     },
     {
         path: '/',
