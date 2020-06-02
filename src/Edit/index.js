@@ -9,9 +9,9 @@ class Edit extends Component {
         <Link to='/'>Go to home</Link>
         <h1>This is the Edit page</h1>
         <form>
-        <label htmlFor='description'>Description</label>
-                    <input type='text'  id='description' />
-                    <input type='submit' />
+            <label htmlFor='description'>Description</label>
+            <input type='text'  id='description' />
+            <input type='submit' />
         </form>
       </div>
     )
