@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-
-import Home from '../Home';
-import Other from '../Other';
 import {Link} from 'react-router-dom';
 
 class Edit extends Component {
