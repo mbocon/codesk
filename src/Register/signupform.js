@@ -64,7 +64,7 @@ class SignUpForm extends Component {
             <input type='password' name='password' onChange={this.handleInput} />
           </div>
           <br />
-          <input value='Submit' type='submit' onClick={this.handleSignUp} />
+          <input value='Submit' type='submit' className='btn btn-outline-success' onClick={this.handleSignUp} />
         </form>
       </div>
     )

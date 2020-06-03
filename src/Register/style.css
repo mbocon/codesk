@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+.register-right > .btn-outline-info {
+    margin-right: 1em;
+}
 
-
-
+.register-container {
+    text-align: center;
+}
