@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
-import logo from "../codeskLogo.png";
+import logo from '../codeskLogo.png'
 
 class Edit extends Component {
-  render() {
-    return (
+  render() 
+  
+  {
+    return ( 
+      
       <div className="Edit">
         <nav className="navbar">
           <img src={logo} alt="not found" />
@@ -14,7 +17,6 @@ class Edit extends Component {
           <input value="LOGOUT" type="submit" id="logout" />
         </nav>
         <h1>EDIT CODE BLOCK</h1>
-
         <div className="input-group">
           <div className="input-group-prepend">
             <span className="input-group-text">Code Description</span>
