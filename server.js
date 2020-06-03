@@ -8,12 +8,10 @@ const passport = require('./config/passport')();
 const parser = require('body-parser')
 const cors = require('cors')
 
-
 app.use(express.static('build'));
 
 // Environment Variables
 const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/merncrud';
-
 
 // Connect to Mongo
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true },
