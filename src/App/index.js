@@ -4,10 +4,9 @@ import "./style.css";
 import {Link} from 'react-router-dom';
 import logo from '../codeskLogo.png';
 import heroImage from '../heroImage.jpeg';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-
-library.add(fab);
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRegistered, faUsers, faUserSecret, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 class App extends Component {
   render() {
@@ -21,19 +20,21 @@ class App extends Component {
                 <img src={logo} className="homePageLogo" alt="not found"/>
                   </div>
                     <div className="user-home-ctr">
-                      <Link to='/Register' className="btn btn-outline-info user-home-create-btn">REGISTER</Link>
-                        </div>
+                      <Link to='/Register' className="btn btn-outline-info user-home-create-btn"> <span> <FontAwesomeIcon icon={faRegistered}/> </span> REGISTER</Link>
+                        </div>  
                           <div className="user-home-rgt">
-                            <form class="form-inline my-2 my-lg-0">
+                            <form class="form-inline my-2 my-lg-0"> 
+                            <span> <FontAwesomeIcon icon={faUsers}/></span>
                               <input className="form-control mr-sm-2" placeholder="Email" type='email' name='email' onChange={this.handleInput} />
+                              <span> <FontAwesomeIcon icon={faUserSecret}/></span>
                                 <form class="form-inline my-2 my-lg-0">
                                   <input className="form-control mr-sm-2" placeholder="Password" type='password' name='password' onChange={this.handleInput} />
-                                    <Link to='/login' type="submit" className="btn btn-outline-success" onclick={this.handle} >LOGIN </Link>
+                                    <Link to='/login' type="submit" className="btn btn-outline-success" onclick={this.handle}> <span> <FontAwesomeIcon icon={faSignInAlt}/> </span> LOGIN </Link>
                                       </form>
                                         </form>
                                           </div>
                                             </header>
- 
+
 
       {/* Title, Flip-Card Effect and Hero Image */}
         <h1 className="display-4">Welcome to Codesk</h1>
