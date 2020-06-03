@@ -74,9 +74,14 @@
     padding: 1em;
 }
 
-.code-card {
+.card {
     height: 250px;
     width: 25%;
     border: 2px solid blue;
+    background-color: white;
     text-align: center;
+}
+
+.btn-orange {
+    background-color: orange;
 }
