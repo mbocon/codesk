@@ -12,8 +12,8 @@ class SignUpForm extends Component {
         }
     
         this.handleLogOut = this.handleLogOut.bind(this)
-        this.handleInput = this.handleInput.bind(this)
-        this.handleLogIn = this.handleLogIn.bind(this)
+        this.handleInput  = this.handleInput.bind(this)
+        this.handleLogIn  = this.handleLogIn.bind(this)
         this.handleSignUp = this.handleSignUp.bind(this)
       }
 
