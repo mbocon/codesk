@@ -10,6 +10,7 @@ class Edit extends Component {
   render() 
   
   {
+ mangbranch
     return ( 
       <div className="Edit">
         <navbar className="navbar">
@@ -18,11 +19,7 @@ class Edit extends Component {
           <input value='LOGOUT' type='submit' id="logout"/>
         </navbar>
         <h1>EDIT CODE BLOCK</h1>
-        {/* <form>
-            <label htmlFor='description'>Code Description</label>
-            <input type='text'  id='description' />
-            <input type='submit' id="submit"/>
-        </form> */}
+        
       <div className="input-group">
          <div className="input-group-prepend">
             <span className="input-group-text">Code Description</span>
@@ -33,22 +30,7 @@ class Edit extends Component {
             
           
       </div>
-
-
-
-
-        
-
-    // <div className="Select-code">
-    //     <h2>SELECT CATEGORY</h2>
-    //       <form>
-    //         JavaScript <input type="checkbox" name="java" />   <br />
-    //         JQuery     <input type="checkbox" name="JQuery" /> <br />
-    //         HTML       <input type="checkbox" name="HTML" />   <br />
-    //         CSS        <input type="checkbox" name="CSS" />    <br />
-    //         Other      <input type="checkbox" name="OTHER" />  <br />
-    //       </form>
-    // </div>
+    
 
 
     )
