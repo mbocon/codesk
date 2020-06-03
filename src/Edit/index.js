@@ -4,13 +4,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "./style.css";
 import logo from '../codeskLogo.png'
 
-
-
 class Edit extends Component {
   render() 
   
   {
- mangbranch
     return ( 
       <div className="Edit">
         <navbar className="navbar">
@@ -21,7 +18,7 @@ class Edit extends Component {
         <h1>EDIT CODE BLOCK</h1>
         
       <div className="input-group">
-         <div className="input-group-prepend">
+          <div className="input-group-prepend">
             <span className="input-group-text">Code Description</span>
         </div>
         <textarea clasNames="form-control" aria-label="Code Description"></textarea>
@@ -31,8 +28,6 @@ class Edit extends Component {
           
       </div>
     
-
-
     )
   }
 }
