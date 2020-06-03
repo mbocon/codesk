@@ -7,6 +7,7 @@ import Edit from "./Edit"
 import Login from './Login';
 import Register from "./Register";
 import Home from "./Home";
+import Posts from "./Posts";
 
 const routes = [
     {
@@ -28,6 +29,11 @@ const routes = [
         path: '/userhome',
         component: Home,
         name: "UserHome-Page"
+    },
+    {
+        path: '/posts',
+        component: Posts,
+        name: "Posts-page"
     },
     {
         path: '/',

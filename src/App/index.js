@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
 import {Link} from 'react-router-dom';
 import logo from '../codeskLogo.png';
@@ -8,11 +8,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRegistered, faUsers, faUserSecret, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
-class App extends Component {
-  render() {
-    return ( 
 
-      // Navigation on top Page
+class App extends Component {
+  
+   render() {
+    return (
+
         <div className="App">
 
             <header className="user-home-header">
@@ -36,7 +37,6 @@ class App extends Component {
                                             </header>
 
 
-      {/* Title, Flip-Card Effect and Hero Image */}
         <h1 className="display-4">Welcome to Codesk</h1>
           <div className="flip-card">
             <div className="flip-card-inner">
@@ -48,7 +48,7 @@ class App extends Component {
                         <p>Codesk allows you to organize, share, understand, and discuss</p>
                           <p>any past, present or future code submitted once signed up!</p>
                             <br></br>
-                              <p>Build and Learn with us <span> ❤️ </span> </p>
+                              Build and Learn with us <span role='img' aria-labelledby="jsx-a11y/accessible-emoji">❤️</span>
                           </div>
                       </div>
                   </div>

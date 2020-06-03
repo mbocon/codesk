@@ -2,14 +2,13 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 // Create Schema
 const postSchema = new Schema({
-    category: Boolean,
-    text: {
-        String, 
-        required: true
-    },
+    category: [ 'Javascript', 'Jquery', 'Algorithm', 'React', 'CSS', 'HTML', 'ALL OTHER' ],
     date: {
         type: Date,
         default: Date.now
+    },
+    text: {
+        type: String
     },
     user: {
         type: Schema.Types.ObjectId,
@@ -19,6 +18,7 @@ const postSchema = new Schema({
 });
 //  Create Model from our Schema
 const Post = mongoose.model('post', postSchema);
+
 // Export model
-module.exports = Client;
+module.exports = Post;
 

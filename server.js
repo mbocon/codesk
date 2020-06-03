@@ -34,7 +34,8 @@ app.use(cors());
 const userController = require('./controllers/users');
 app.use('/users', userController);
 
-
+const postController = require('./controllers/posts');
+app.use('/posts', postController);
 
 app.get('*', (req, res) => {
 	res.sendFile(path.join(`${__dirname}/build/index.html`));
