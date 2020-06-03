@@ -51,17 +51,19 @@ class SignUpForm extends Component {
   render () {
     return (
       <div>
-        <h2>Register</h2>
+        <h3 className="display-3">Sign Up!</h3>
         <form>
+          <br />
           <div>
-            <label htmlFor='email'>Email</label>
+            <label htmlFor='email'>Email: </label>
             <input type='email' name='email' onChange={this.handleInput} />
           </div>
-
+            <br/>
           <div>
-            <label htmlFor='password'>Password</label>
+            <label htmlFor='password'>Password: </label>
             <input type='password' name='password' onChange={this.handleInput} />
           </div>
+          <br />
           <input value='Submit' type='submit' onClick={this.handleSignUp} />
         </form>
       </div>
