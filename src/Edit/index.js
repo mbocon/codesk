@@ -10,7 +10,7 @@ class Edit extends Component {
   render() 
   
   {
- mangbranch
+
     return ( 
       <div className="Edit">
         <navbar className="navbar">
