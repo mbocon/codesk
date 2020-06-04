@@ -9,6 +9,7 @@ import Footer from "../Footer"
 class Register extends Component {
   render() {
     return (
+      
       // Navigation header on top of the page
       <div className="App">
           <nav className="navbar navbar-light bg-light register-nav">
@@ -28,6 +29,7 @@ class Register extends Component {
         {/* Sign Up form  */}
           <div className="register-container container container-fluid">
             <SignUpForm />
+            
                 </div>
                     </div>
 
