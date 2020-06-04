@@ -16,13 +16,9 @@ class Register extends Component {
           </Link>
           <div className="register-right">
           <Link to="/" className="btn btn-outline-info">
-            {" "}
             Home page
           </Link>
-          <Link to="/login" className="btn btn-outline-info">
-            {" "}
-            Login page
-          </Link>
+          
           </div>
         </nav>
         <div className="register-container container container-fluid">

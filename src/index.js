@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { createBrowserHistory } from 'history';
 import { Switch, Route, Router } from 'react-router';
 import App from "./App";
-import Edit from "./Edit";
+import Edit from "./Edit"
 import Register from "./Register";
 import Home from "./Home";
 import Posts from "./Posts";
