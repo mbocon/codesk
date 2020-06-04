@@ -57,9 +57,6 @@ class App extends Component {
               REGISTER
             </Link>
           </div>
-
-
-       
           <div className='user-home-rgt'>
             {this.state.isLoggedIn ? (
               <div>
@@ -122,10 +119,10 @@ class App extends Component {
               <span role='img' aria-labelledby='jsx-a11y/accessible-emoji'>
                 ❤️
               </span>
-             <Footer />
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
