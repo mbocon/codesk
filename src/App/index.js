@@ -57,17 +57,6 @@ class App extends Component {
               REGISTER
             </Link>
           </div>
-
-
-        <div className="App">
-
-            <header className="user-home-header">
-              <div className="user-home-lft">
-                <img src={logo} className="homePageLogo" alt="not found"/>
-                  </div>
-                    <div className="user-home-ctr">
-                      <Link to='/Register' className="btn btn-outline-info user-home-create-btn"> <span> <FontAwesomeIcon icon={faRegistered}/> </span> REGISTER</Link>
-                        </div>  
           <div className='user-home-rgt'>
             {this.state.isLoggedIn ? (
               <div>
@@ -130,10 +119,10 @@ class App extends Component {
               <span role='img' aria-labelledby='jsx-a11y/accessible-emoji'>
                 ❤️
               </span>
-             <Footer />
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
