@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import logo from "../codeskLogo.png";
 import Card from "../Post Cards";
 
-
 export default class Home extends React.Component {
   state = {
     isOpen: false,
