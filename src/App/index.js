@@ -6,7 +6,7 @@ import logo from "../codeskLogo.png";
 import heroImage from "../heroImage.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRegistered, faUsers, faUserSecret, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import Footer from "../Footer";
 
 class App extends Component {
   state = {
@@ -58,6 +58,16 @@ class App extends Component {
             </Link>
           </div>
 
+
+        <div className="App">
+
+            <header className="user-home-header">
+              <div className="user-home-lft">
+                <img src={logo} className="homePageLogo" alt="not found"/>
+                  </div>
+                    <div className="user-home-ctr">
+                      <Link to='/Register' className="btn btn-outline-info user-home-create-btn"> <span> <FontAwesomeIcon icon={faRegistered}/> </span> REGISTER</Link>
+                        </div>  
           <div className='user-home-rgt'>
             {this.state.isLoggedIn ? (
               <div>
@@ -120,6 +130,7 @@ class App extends Component {
               <span role='img' aria-labelledby='jsx-a11y/accessible-emoji'>
                 ❤️
               </span>
+             <Footer />
             </div>
           </div>
         </div>
