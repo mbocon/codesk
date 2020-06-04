@@ -4,15 +4,12 @@ import { createBrowserHistory } from 'history';
 import { Switch, Route, Router } from 'react-router';
 import App from "./App";
 import Edit from "./Edit"
-import Login from './Login';
 import Register from "./Register";
+import Home from "./Home";
+import Posts from "./Posts";
 
 const routes = [
-    {
-        path: '/login',
-        component: Login,
-        name: 'Login-Page'
-    },
+
     {
         path: '/edit',
         component: Edit,
@@ -22,6 +19,16 @@ const routes = [
         path: '/register',
         component: Register,
         name: 'Register-Page'
+    },
+    {
+        path: '/userhome',
+        component: Home,
+        name: "UserHome-Page"
+    },
+    {
+        path: '/posts',
+        component: Posts,
+        name: "Posts-page"
     },
     {
         path: '/',
