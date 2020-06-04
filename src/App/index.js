@@ -6,12 +6,11 @@ import logo from '../codeskLogo.png';
 import heroImage from '../heroImage.jpeg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRegistered, faUsers, faUserSecret, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
-
+import Footer from "../Footer";
 
 class App extends Component {
   
-   render() {
+    render() {
     return (
 
         <div className="App">
@@ -36,7 +35,6 @@ class App extends Component {
                                           </div>
                                             </header>
 
-
         <h1 className="display-4">Welcome to Codesk</h1>
           <div className="flip-card">
             <div className="flip-card-inner">
@@ -52,6 +50,7 @@ class App extends Component {
                           </div>
                       </div>
                   </div>
+                  <Footer />
               </div>
               )
             }
