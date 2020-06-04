@@ -5,11 +5,35 @@ import "./style.css";
 import logo from '../codeskLogo.png'
 
 class Edit extends Component {
-  render() 
-  
-  {
+ 
+
+      // const { _id } = this.props.post;
+
+      constructor(props) {
+        super(props);
+        this.state = {value: ''}
+
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+      }
+
+      handleChange(event) {
+        this.setState({value: event.target.value});
+      }
+
+      handleSubmit(event) {
+        alert('A code was submitted: ' + this.state.value);
+        event.preventDefault();
+      }
+     render() {
     return ( 
+      <form onSubmit={this.handleSubmit}>
+      <label htmlFor="input-group-text">
+        <input type="text" value={this.state.value} onChange={this.handleChange}/>
+      </label>
       
+      
+
       <div className="Edit">
         <nav className="navbar">
           <img src={logo} alt="not found" />
@@ -25,9 +49,11 @@ class Edit extends Component {
             className="form-control"
             aria-label="Code Description"
           ></textarea>
-          <input type="submit" id="submit" />
+          <input type="submit" value={this.state.submit} id="submit" />
         </div>
       </div>
+</form>
+       
     );
   }
 }

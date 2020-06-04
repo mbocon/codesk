@@ -11,6 +11,26 @@ import { faGithub, faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg
 
 class App extends Component {
   
+
+// updatePost = (post) => {
+//   post.complete = !post.complete;
+//   fetch('posts/' + post._id, {
+//     body: JSON.stringify(post),
+//     method: "PUT",
+//     headers: {
+//       'Accept': 'application/json, text/plain, */*',
+//       'Content-Type': 'application/json'
+//     }
+//   }).then(response => response.json()).then(data => {
+//     // make another call to the server to get the current todos
+//     this.getData()
+//   })
+// }
+
+
+
+
+
    render() {
     return (
 

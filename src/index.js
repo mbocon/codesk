@@ -4,17 +4,12 @@ import { createBrowserHistory } from 'history';
 import { Switch, Route, Router } from 'react-router';
 import App from "./App";
 import Edit from "./Edit"
-import Login from './Login';
+
 import Register from "./Register";
 import Home from "./Home";
 import Posts from "./Posts";
 
 const routes = [
-    {
-        path: '/login',
-        component: Login,
-        name: 'Login-Page'
-    },
     {
         path: '/edit',
         component: Edit,
