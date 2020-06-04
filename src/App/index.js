@@ -125,8 +125,11 @@ class App extends Component {
                 ❤️
               </span>
             </div>
-          </div>
+          </div> 
         </div>
+          <div className="Footer">
+          <Footer />
+          </div>
       </div>
     );
   }
