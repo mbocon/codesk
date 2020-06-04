@@ -48,28 +48,31 @@ class App extends Component {
         <header className='user-home-header'>
           <div className='user-home-lft'>
             <img src={logo} className='homePageLogo' alt='not found' />
-          </div>
-          <div className='user-home-ctr'>
-            <Link to='/Register' className='btn btn-outline-info user-home-create-btn'>
-              <span>
-                <FontAwesomeIcon icon={faRegistered} />
-              </span>
-              REGISTER
-            </Link>
-          </div>
+              </div>
+
+      {/* Register button */}
+      <div className='user-home-ctr'>
+        <Link to='/Register' className='btn btn-outline-info user-home-create-btn'>
+            <span>
+              <FontAwesomeIcon icon={faRegistered} />
+                </span>
+                  REGISTER
+                    </Link>
+      </div>
+
           <div className='user-home-rgt'>
             {this.state.isLoggedIn ? (
               <div>
-                <h4>
-                  Welcome <span>{this.state.email}</span>
-                </h4>
-                <NavLink to='/userhome'>Go to homepage</NavLink>
-              </div>
+                  <h4>
+                    Welcome <span>{this.state.email}</span>
+                      </h4>
+                        <NavLink to='/userhome'>Go to homepage</NavLink>
+                          </div>
             ) : (
               <form className='form-inline my-2 my-lg-0'>
-                <span>
-                  <FontAwesomeIcon icon={faUsers} />
-                </span>
+                  <span>
+                    <FontAwesomeIcon icon={faUsers} />
+                      </span>
                 <input
                   className='form-control mr-sm-2'
                   placeholder='Email'
@@ -78,9 +81,10 @@ class App extends Component {
                   id='email'
                   onChange={this.handleInput}
                 />
+
                 <span>
                   <FontAwesomeIcon icon={faUserSecret} />
-                </span>
+                    </span>
 
                 <input
                   className='form-control mr-sm-2'
@@ -92,13 +96,13 @@ class App extends Component {
                 />
 
                 <NavLink to='/userhome'>
-                  <button type='submit' className='btn btn-outline-success' onClick={this.handleLogin}>
-                    <span>
-                      <FontAwesomeIcon icon={faSignInAlt} />
-                    </span>
-                    LOGIN
-                  </button>
-                </NavLink>
+                    <button type='submit' className='btn btn-outline-success' onClick={this.handleLogin}>
+                      <span>
+                        <FontAwesomeIcon icon={faSignInAlt} />
+                          </span>
+                            LOGIN
+                              </button>
+                                </NavLink>
               </form>
             )}
           </div>
@@ -109,12 +113,13 @@ class App extends Component {
           <div className='flip-card-inner'>
             <div className='flip-card-front'>
               <img src={heroImage} className='homePageHero' alt='not found' />
-            </div>
-            <div className='flip-card-back'>
-              <h4 className='display-4'>Simplify your life!</h4>
+        </div>
+
+        <div className='flip-card-back'>
+            <h4 className='display-4'>Simplify your life!</h4>
               <p>Codesk allows you to organize, share, understand, and discuss</p>
               <p>any past, present or future code submitted once signed up!</p>
-              <br></br>
+              <br />
               Build and Learn with us
               <span role='img' aria-labelledby='jsx-a11y/accessible-emoji'>
                 ❤️
@@ -122,7 +127,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
