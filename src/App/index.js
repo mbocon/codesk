@@ -59,15 +59,7 @@ class App extends Component {
           </div>
 
 
-        <div className="App">
-
-            <header className="user-home-header">
-              <div className="user-home-lft">
-                <img src={logo} className="homePageLogo" alt="not found"/>
-                  </div>
-                    <div className="user-home-ctr">
-                      <Link to='/Register' className="btn btn-outline-info user-home-create-btn"> <span> <FontAwesomeIcon icon={faRegistered}/> </span> REGISTER</Link>
-                        </div>  
+       
           <div className='user-home-rgt'>
             {this.state.isLoggedIn ? (
               <div>
