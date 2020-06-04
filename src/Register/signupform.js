@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class SignUpForm extends Component {
 
@@ -11,9 +12,7 @@ class SignUpForm extends Component {
           isLoggedIn: false
         }
     
-        this.handleLogOut = this.handleLogOut.bind(this)
         this.handleInput  = this.handleInput.bind(this)
-        this.handleLogIn  = this.handleLogIn.bind(this)
         this.handleSignUp = this.handleSignUp.bind(this)
       }
 
@@ -28,10 +27,6 @@ class SignUpForm extends Component {
           })
         }
       }
-
-      handleLogOut () {
-
-    }
   
     handleInput (e) {
       this.setState({
@@ -40,13 +35,8 @@ class SignUpForm extends Component {
     }
   
     handleSignUp (e) {
-  
+      
     }
-  
-    handleLogIn (e) {
-  
-    }
-    
 
   render () {
     return (
@@ -64,7 +54,9 @@ class SignUpForm extends Component {
             <input type='password' name='password' onChange={this.handleInput} />
           </div>
           <br />
+          <Link to="/userhome">
           <input value='Submit' type='submit' className='btn btn-outline-success' onClick={this.handleSignUp} />
+          </Link>
         </form>
       </div>
     )

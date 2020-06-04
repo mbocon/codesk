@@ -9,7 +9,6 @@ import Home from "./Home";
 import Posts from "./Posts";
 
 const routes = [
-
     {
         path: '/edit',
         component: Edit,
