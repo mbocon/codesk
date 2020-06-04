@@ -6,7 +6,7 @@ import logo from "../codeskLogo.png";
 import heroImage from "../heroImage.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRegistered, faUsers, faUserSecret, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import Footer from "../Footer";
 
 class App extends Component {
   state = {
@@ -57,7 +57,6 @@ class App extends Component {
               REGISTER
             </Link>
           </div>
-
           <div className='user-home-rgt'>
             {this.state.isLoggedIn ? (
               <div>
@@ -123,6 +122,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
