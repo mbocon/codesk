@@ -25,7 +25,6 @@ export default class Home extends React.Component {
 
 
 	handleInput = event => {
-		console.log(event.target.value);
 		this.setState({
 			[event.target.id]: event.target.value,
 		});
@@ -46,7 +45,6 @@ export default class Home extends React.Component {
 		})
 			.then(response => response.json())
 			.then(response => {
-				console.log(response);
 				localStorage.token = response.token;
 				this.setState({
 					currentUser: response.currentUser,
@@ -65,7 +63,6 @@ export default class Home extends React.Component {
 	}
 
 	handleDelete = (id, index) => {
-		console.log(id, index, 'from delete click');
 		fetch(`/posts/${id}`, {
 			method: 'DELETE',
 		}).then(() => {
@@ -77,10 +74,8 @@ export default class Home extends React.Component {
 
 
 	handleLogOut() {
-    console.log(localStorage.token)
 		localStorage.clear();
-    console.log(localStorage.token);
-    window.location.reload()
+		window.location.reload()
 	}
 
 	toggleOpen = () => this.setState({ isOpen: !this.state.isOpen });
@@ -167,7 +162,14 @@ export default class Home extends React.Component {
 								<img src={logo} alt='not found' />
 							</Link>
 						</div>
-						<div className='user-home-ctr'></div>
+						<div className='user-home-ctr'>
+						<Link to='/Register' className='btn btn-outline-info user-home-create-btn'>
+							<span>
+								<FontAwesomeIcon icon={faRegistered} />
+							</span>
+							REGISTER
+						</Link>
+					</div>
 						<div className='user-home-rgt'>
 							<form className='form-inline my-2 my-lg-0'>
 								<span>
@@ -206,7 +208,6 @@ export default class Home extends React.Component {
 						</div>
 					</header>
           <h1>Please login or sign up!</h1>
-          <SignUpForm />
           <Footer />
 				</div>
 			);

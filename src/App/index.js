@@ -19,7 +19,6 @@ class App extends Component {
 	};
 
 	handleInput = event => {
-		console.log(event.target.value);
 		this.setState({
 			[event.target.id]: event.target.value,
 		});
@@ -40,7 +39,6 @@ class App extends Component {
 		})
 			.then(response => response.json())
 			.then(response => {
-				console.log(response, 'is login response');
         localStorage.token = response.token;
 				this.setState({
 					currentUser: response.currentUser,
@@ -50,16 +48,14 @@ class App extends Component {
         });
 			})
 			.catch(err => console.log(err));
+			this.props.history.push("/userhome"); 
 	};
 
 
   
 
 	render() {
-    console.log(localStorage.token);
-    if (localStorage.token) {
-      console.log(this.state.currentUser, 'is the current user')
-    }
+    
 		return (
 			<div className='App'>
 				<header className='user-home-header'>
