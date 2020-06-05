@@ -27,7 +27,7 @@ class Edit extends Component {
           <div className="input-group-prepend">
             <span className="input-group-text">Code Description</span>
           </div>
-          <textarea
+          <textarea 
             className="form-control"
             aria-label="Code Description"
           ></textarea>

@@ -8,7 +8,7 @@ if(process.env.NODE_ENV === 'development'){
     endpoint = '/'
 }
 
-class Card extends Component {
+class FilteredCard extends Component {
 	state = {
 		isEditing: false,
 		postId: '',
@@ -50,18 +50,18 @@ class Card extends Component {
 		if (this.state.isEditing === true) {
 			return (
 				<form onSubmit={e => this.saveChanges(e, id)}>
-					<textarea type='text' value={text} id={text} onChange={this.handleInput} rows="12" cols="85" />
+					<textarea type='text' value={text} id={text} onChange={this.handleInput} rows="12" cols="85"/>
 					<button type='submit'>Save Changes</button>
 				</form>
 			);
 		}
 		return (
-			<div className='card'>
+			<div className='filtered-card'>
 				<h3>{text}</h3>
-				<button className='btn btn-outline-danger' onClick={() => handleDelete(id, index)}>
+				<button className='btn btn-outline-danger filtered-btn' onClick={() => handleDelete(id, index)}>
 					Delete
 				</button>
-				<button className='btn btn-outline-info' onClick={() => this.handleData(id)}>
+				<button className='btn btn-outline-info filtered-btn' onClick={() => this.handleData(id)}>
 					Edit
 				</button>
 			</div>
@@ -69,4 +69,4 @@ class Card extends Component {
 	}
 }
 
-export default Card;
+export default FilteredCard;

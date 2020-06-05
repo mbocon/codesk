@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 // Create Schema
 const postSchema = new Schema({
-    category: [ 'Javascript', 'Jquery', 'Algorithm', 'React', 'CSS', 'HTML', 'ALL OTHER' ],
+    category: {
+        type: String
+    },
     date: {
         type: Date,
         default: Date.now
