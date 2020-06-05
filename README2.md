@@ -11,27 +11,27 @@ _______________________________________________________________
 
 # **Technologies Used:**
 
-![React](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400571/ract_logo_ra5ddw.jpg) - React
+![React](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400571/ract_logo_ra5ddw.jpg) 
 
-![MongoDB](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/mongodb-inc-logo_hzg2qs.webp) - MongoDB
+![MongoDB](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/mongodb-inc-logo_hzg2qs.webp)
 
-![Express](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/express-logo_dqkffn.png) - Express
+![Express](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/express-logo_dqkffn.png) 
 
-![Node](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/node-js-logo_qujkuy.png) - Node JS
+![Node](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/node-js-logo_qujkuy.png) 
 
-![JavaScript](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/logo-javascript_dsxj1k.svg) - Java Script
+![JavaScript](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/logo-javascript_dsxj1k.svg) 
 
-![CSS](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/css-logo_cmoeyq.png) - CSS
+![CSS](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/css-logo_cmoeyq.png) 
 
-![HTML](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/HTML5_Logo_256_tvdujd.png) - HTML
+![HTML](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/HTML5_Logo_256_tvdujd.png) 
 
-![Heroku](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/heroku-1-logo_ngvyjp.png) - Heroku
+![Heroku](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/heroku-1-logo_ngvyjp.png) 
 
-![FontAwesome](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/font_logo_dwfbb0.png) - FontAwesome
+![FontAwesome](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/font_logo_dwfbb0.png) 
 
-![Bootsrap](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/boot_logo_zfe8mf.png) - Bootsrap
+![Bootsrap](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/boot_logo_zfe8mf.png) 
 
-![Cloudinary](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/cloud_logo_ewylge.svg) - Cloudinary
+![Cloudinary](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/cloud_logo_ewylge.svg) 
 _______________________________________________________________
 
 # **Wireframe:**
