@@ -54,6 +54,7 @@ class App extends Component {
 
 
   
+
 	render() {
     console.log(localStorage.token);
     if (localStorage.token) {
@@ -145,5 +146,6 @@ class App extends Component {
 	}
 
 }
+
 
 export default App;
