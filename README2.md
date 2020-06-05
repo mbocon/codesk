@@ -1,36 +1,37 @@
-# **CODEESK** 
+# **CODESK** 
 
 ![CODEESK](https://res.cloudinary.com/dqiighjqq/image/upload/v1591398625/CODESK_LOGO_smcfhi.png)
 
 ______________________________________________________________
 ## **Concept:**
 ### Full-stack MERN website, functional and interactive.
-### This web application let the user add, edit and delete chunks of codes, such as * *JAVASCRIPT, CSS and HTML* *, and create a user ### data base of codes that can be used any time he needs it.
+### This web application let the user add, edit and delete chunks of codes, such as 
+### *JAVASCRIPT, CSS and HTML*, and create a user ### data base of codes that can be used anytime the user needs it.
 _______________________________________________________________
 
 # **Technologies Used:**
 
-![React](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399170/react_logo_vf4pzu.jpg) 
+![React](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400571/ract_logo_ra5ddw.jpg) - React
 
-![MongoDB](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399505/mongoDB_dwdcb2.jpg)
+![MongoDB](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/mongodb-inc-logo_hzg2qs.webp) - MongoDB
 
-![Express](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399505/express_zb0lie.png)
+![Express](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/express-logo_dqkffn.png) - Express
 
-![Node](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399504/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84de7b809.1939946215246930699491_z9ppzf.jpg)
+![Node](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/node-js-logo_qujkuy.png) - Node JS
 
-![JavaScript](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399504/javascript_logo_vvg4ma.jpg)
+![JavaScript](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/logo-javascript_dsxj1k.svg) - Java Script
 
-![CSS](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399504/css_logo_sfhsls.jpg)
+![CSS](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/css-logo_cmoeyq.png) - CSS
 
-![HTML](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399504/html_logo_aksrcc.jpg)
+![HTML](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/HTML5_Logo_256_tvdujd.png) - HTML
 
-![Heroku](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399505/heroku_logo_rxcvbb.jpg)
+![Heroku](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/heroku-1-logo_ngvyjp.png) - Heroku
 
-![FontAwesome](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399504/font_logo_s2jihb.png)
+![FontAwesome](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/font_logo_dwfbb0.png) - FontAwesome
 
-![Bootsrap](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399504/bootstrap_logo_gdabpv.jpg)
+![Bootsrap](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/boot_logo_zfe8mf.png) - Bootsrap
 
-![Cloudinary](https://res.cloudinary.com/dqiighjqq/image/upload/v1591399669/cloud_logo_oajead.png)
+![Cloudinary](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/cloud_logo_ewylge.svg) - Cloudinary
 _______________________________________________________________
 
 # **Wireframe:**
