@@ -56,7 +56,7 @@
     }
 
     .user-home-rgt {
-
+      
     }
 
 h1 {
@@ -102,6 +102,8 @@ h1 {
     color: black;
     transform: rotateY(180deg);
   }
+
+
 
   .Footer {
     background-color: "#F8F8F8";

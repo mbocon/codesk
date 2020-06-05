@@ -52,6 +52,7 @@ class App extends Component {
 			.catch(err => console.log(err));
 	};
 
+
   
 	render() {
     console.log(localStorage.token);
@@ -97,6 +98,7 @@ class App extends Component {
 									<FontAwesomeIcon icon={faUserSecret} />
 								</span>
 
+
 								<input
 									className='form-control mr-sm-2'
 									placeholder='Password'
@@ -141,6 +143,7 @@ class App extends Component {
 			</div>
 		);
 	}
+
 }
 
 export default App;

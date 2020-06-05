@@ -37,6 +37,7 @@ class SignUpForm extends Component {
       })
     }
   
+
     handleSignUp(e) {
       e.preventDefault()
       axios.post('http://localhost:8000/users/register', {
@@ -55,26 +56,30 @@ class SignUpForm extends Component {
   }
 
 
+
   render () {
     return (
       <div>
         <h3 className="display-3">Sign Up!</h3>
-        <form>
-          <br />
-          <div>
-            <label htmlFor='email'>Email: </label>
-            <input type='email' name='email' onChange={this.handleInput} />
-          </div>
+          <form>
+            <br />
+
+
+              <div>
+                <label htmlFor='email'>Email: </label>
+                  <input type='email' name='email' onChange={this.handleInput} />
+              </div>
+
             <br/>
-          <div>
-            <label htmlFor='password'>Password: </label>
-            <input type='password' name='password' onChange={this.handleInput} />
-          </div>
+              <div>
+                <label htmlFor='password'>Password: </label>
+                  <input type='password' name='password' onChange={this.handleInput} />
+              </div>
           <br />
-          <Link to="/userhome">
-          <input value='Submit' type='submit' className='btn btn-outline-success' onClick={this.handleSignUp} />
-          </Link>
-        </form>
+            <Link to="/userhome">
+              <input value='Submit' type='submit' className='btn btn-outline-success' onClick={this.handleSignUp} />
+                </Link>
+          </form>
       </div>
     )
   }
