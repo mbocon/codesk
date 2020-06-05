@@ -11,35 +11,6 @@
     --reg-width: 16px;
     }
 
-
-.homePageLogo {
-  height: 10rem;
-  align-items: left;
-  justify-content: left;
-  margin-left: -60px;
-}
-
-.nav-order {
-  justify-content: center;
-  align-items: center;
-}
-
-.main-login-form {
-  display: flex;
-  margin-left: 2em;
-}
-
-.main-login-form > .btn-outline-success {
-  height: 50%;
-  align-self: center;
-  margin-left: .5em;
-}
-
-.btn-outline-secondary {
-  margin-left: .5em;
-}
-
-
 .homePageHero {
   background-size: cover;
   background-position: center;

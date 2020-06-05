@@ -56,7 +56,7 @@ class App extends Component {
             <span>
               <FontAwesomeIcon icon={faRegistered} />
                 </span>
-                  REGISTER
+                  EGISTER
                     </Link>
       </div>
 
@@ -128,7 +128,7 @@ class App extends Component {
           </div> 
         </div>
           <div className="Footer">
-          <Footer />
+          {/* <Footer /> */}
           </div>
       </div>
     );

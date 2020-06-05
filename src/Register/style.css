@@ -1,12 +1,5 @@
 .container {
-    background-color: lightgray;
+    background-color: rgb(162, 186, 238);
     margin: auto;
 }
 
-.register-right > .btn-outline-info {
-    margin-right: 1em;
-}
-
-.register-container {
-    text-align: center;
-}
