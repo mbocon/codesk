@@ -5,6 +5,8 @@ import SignUpForm from "./signupform";
 import "./style.css";
 import logo from "../codeskLogo.png";
 import Footer from "../Footer"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 class Register extends Component {
   render() {
@@ -20,6 +22,9 @@ class Register extends Component {
           {/* Link to Home page */}
           <div className="register-right">
               <Link to="/" className="btn btn-outline-info">
+              <span>
+                <FontAwesomeIcon icon={faHome} />
+              </span>
                   Home page
                     </Link>
                       </div>

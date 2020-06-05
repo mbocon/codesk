@@ -51,9 +51,6 @@ class App extends Component {
 			this.props.history.push("/userhome"); 
 	};
 
-
-  
-
 	render() {
     
 		return (
@@ -141,7 +138,6 @@ class App extends Component {
 		);
 	}
 
-}
 
 
 export default App;
