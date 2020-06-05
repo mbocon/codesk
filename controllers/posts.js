@@ -13,8 +13,18 @@ router.get('/', (req, res) => {
     })
 })
 
+// Get by category
+router.get('/category', (req, res) => {
+    Posts.find({category: req.query.category }, (err, foundPosts) => {
+        console.log(req.query.category, foundPosts)
+        res.json(foundPosts);
+    
+    })
+})
+
 // Create
 router.post('/', (req, res)=> {
+    console.log(req.body, 'from created post')
     Posts.create(req.body, (err, createdItem) => {
         res.json(createdItem);
     })
