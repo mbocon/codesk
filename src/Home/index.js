@@ -96,7 +96,6 @@ export default class Home extends React.Component {
 	};
 
 	render() {
-		console.log(this.state.filteredArr, 'is the filtered arr', this.state.filtered, 'is filtered state');
 		const menuClass = `dropdown-menu${this.state.isOpen ? ' show' : ''}`;
 		return (
 			<div>

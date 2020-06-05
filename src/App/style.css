@@ -22,17 +22,12 @@
   margin: 0 auto;
 }
 
-    .user-home-ctr span {
-      
-    }
-
-    .user-home-rgt {
-      
-    }
-
+.link-to-userhome{
+  color: #7ac8bc;
+}
 h1 {
   text-align: center;
-  color: var(--bright-pink);
+  color: var(--bright-pink)
 }
 
 .flip-card {
@@ -73,8 +68,6 @@ h1 {
     color: black;
     transform: rotateY(180deg);
   }
-
-
 
   .Footer {
     background-color: "#F8F8F8";
