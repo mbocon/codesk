@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import "../Footer/style.css"
+
 
 
 class Footer extends Component {
@@ -10,10 +12,10 @@ class Footer extends Component {
             <p> Build by Group 5 (Mike, Eric, Andre, and Ben) </p>
             <div className="row">
                 <div className="col">
-            <p>MIKE</p>
+        <p>MIKE</p>
             <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
             <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
-                </div>
+        </div>
                 <div className="col">
             <p>ERIC</p>
             <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>

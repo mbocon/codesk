@@ -23,7 +23,7 @@ class Card extends Component {
         <div className='card'>
         <h3>{text}</h3>
         <button className='btn btn-outline-danger' onClick={()=> handleDelete(id, index)} >Delete</button>
-         <button className="btn btn-outline-info" onClick={()=>this.handleData(id)}  >Edit</button>
+         <button className="btn btn-outline-info" onClick={()=>this.handleData(id)}>Edit</button>
     </div>
     )
   }

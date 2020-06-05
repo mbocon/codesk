@@ -1,4 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
+
 
 class SignUpForm extends Component {
 
@@ -11,9 +14,7 @@ class SignUpForm extends Component {
           isLoggedIn: false
         }
     
-        this.handleLogOut = this.handleLogOut.bind(this)
         this.handleInput  = this.handleInput.bind(this)
-        this.handleLogIn  = this.handleLogIn.bind(this)
         this.handleSignUp = this.handleSignUp.bind(this)
       }
 
@@ -28,44 +29,57 @@ class SignUpForm extends Component {
           })
         }
       }
-
-      handleLogOut () {
-
-    }
   
     handleInput (e) {
+      console.log(e.target.value)
       this.setState({
         [e.target.name]: e.target.value
       })
     }
   
-    handleSignUp (e) {
-  
-    }
-  
-    handleLogIn (e) {
-  
-    }
-    
+
+    handleSignUp(e) {
+      e.preventDefault()
+      axios.post('http://localhost:8000/users/register', {
+          email: this.state.email,
+          password: this.state.password
+        })
+          .then(response => {
+              localStorage.token = response.data.token
+              this.setState({
+                  isLoggedIn: true,
+                  email: '',
+                  password:''
+              })
+          })
+          .catch(err => console.log(err))
+  }
+
+
 
   render () {
     return (
       <div>
         <h3 className="display-3">Sign Up!</h3>
-        <form>
-          <br />
-          <div>
-            <label htmlFor='email'>Email: </label>
-            <input type='email' name='email' onChange={this.handleInput} />
-          </div>
+          <form>
+            <br />
+
+
+              <div>
+                <label htmlFor='email'>Email: </label>
+                  <input type='email' name='email' onChange={this.handleInput} />
+              </div>
+
             <br/>
-          <div>
-            <label htmlFor='password'>Password: </label>
-            <input type='password' name='password' onChange={this.handleInput} />
-          </div>
+              <div>
+                <label htmlFor='password'>Password: </label>
+                  <input type='password' name='password' onChange={this.handleInput} />
+              </div>
           <br />
-          <input value='Submit' type='submit' className='btn btn-outline-success' onClick={this.handleSignUp} />
-        </form>
+            <Link to="/userhome">
+              <input value='Submit' type='submit' className='btn btn-outline-success' onClick={this.handleSignUp} />
+                </Link>
+          </form>
       </div>
     )
   }
