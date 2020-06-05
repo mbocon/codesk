@@ -15,6 +15,7 @@ class Footer extends Component {
             <a id='github' href="https://github.com/mbocon" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
             <a id='github' href="https://www.linkedin.com/in/mike-bocon/" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
                 </div>
+            
                 <div className="col">
             <p>ERIC</p>
             <a id='github' href="https://github.com/EArias90" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>

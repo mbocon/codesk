@@ -1,0 +1,21 @@
+.user-home-content-child-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.filtered-card {
+    height: 250px;
+    width: 30%;
+    border: 2px solid blue;
+    background-color: white;
+    text-align: left;
+    overflow: scroll;
+    margin: 1em .5em;
+    padding: 1%;
+}
+
+.filtered-btn {
+    width: 100%;
+}
