@@ -139,7 +139,7 @@ class App extends Component {
 							</span>
 						</div>
 					</div>
-					<div class="foot-container">
+						<div class="foot-container">
 					<Footer />
 					</div>
 				</div>
