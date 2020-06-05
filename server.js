@@ -8,6 +8,7 @@ const passport = require('./config/passport')();
 const parser = require('body-parser')
 const cors = require('cors')
 
+
 app.use(express.static('build'));
 
 // Environment Variables

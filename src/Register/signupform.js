@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
+import axios from 'axios';
+let endpoint;
+if(process.env.NODE_ENV === 'development'){
+    endpoint = 'http://localhost:8000/'
+} else {
+    endpoint = '/'
+}
+
 
 class SignUpForm extends Component {
 
@@ -31,14 +39,31 @@ class SignUpForm extends Component {
       }
   
     handleInput (e) {
+      console.log(e.target.value)
       this.setState({
         [e.target.name]: e.target.value
       })
     }
   
-    handleSignUp = (e) => {
-      
-    }
+
+    handleSignUp(e) {
+      e.preventDefault()
+      axios.post(`${endpoint}users/register`, {
+          email: this.state.email,
+          password: this.state.password
+        })
+          .then(response => {
+              localStorage.token = response.data.token
+              this.setState({
+                  isLoggedIn: true,
+                  email: '',
+                  password:''
+              })
+          })
+          .catch(err => console.log(err))
+  }
+
+
 
   render () {
     return (
