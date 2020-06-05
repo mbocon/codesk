@@ -56,12 +56,8 @@
     }
 
     .user-home-rgt {
-
+      
     }
-
-
-
-
 
 h1 {
   text-align: center;
@@ -107,3 +103,16 @@ h1 {
     transform: rotateY(180deg);
   }
 
+
+
+  .Footer {
+    background-color: "#F8F8F8";
+    border-top: "1px solid #E7E7E7";
+    text-align: "center";
+    padding: "20px";
+    position: "fixed";
+    left: "0";
+    bottom: "0";
+    height: "60px";
+    width: "100%";
+  }
