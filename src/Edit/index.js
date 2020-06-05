@@ -7,7 +7,7 @@ import logo from '../codeskLogo.png'
 class Edit extends Component {
  
 
-      // const { _id } = this.props.post;
+
 
       constructor(props) {
         super(props);
