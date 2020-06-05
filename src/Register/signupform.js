@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-
+let endpoint;
+if(process.env.NODE_ENV === 'development'){
+    endpoint = 'http://localhost:8000/'
+} else {
+    endpoint = '/'
+}
 
 class SignUpForm extends Component {
 
@@ -40,7 +45,7 @@ class SignUpForm extends Component {
 
     handleSignUp(e) {
       e.preventDefault()
-      axios.post('http://localhost:8000/users/register', {
+      axios.post(`${endpoint}users/register`, {
           email: this.state.email,
           password: this.state.password
         })

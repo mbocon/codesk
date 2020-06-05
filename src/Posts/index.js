@@ -16,7 +16,6 @@ class Posts extends Component {
     }
 
     handleChange = (event) => {
-        console.log([event.target.value], 'is the event trgt')
         this.setState({
             [event.target.id] : event.target.value
         })
@@ -37,9 +36,9 @@ class Posts extends Component {
             this.setState({
                 posts: [newPost, ...this.state.posts],
                 text: '',
-                
             })
         })
+        this.props.history.push("/userhome"); 
     }
 
   render() {
