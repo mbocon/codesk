@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import "../Footer/style.css"
 
 
 
@@ -13,22 +12,22 @@ class Footer extends Component {
             <div className="row">
                 <div className="col">
             <p>MIKE</p>
-            <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
-            <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
+            <a id='github' href="https://github.com/mbocon" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
+            <a id='github' href="https://www.linkedin.com/in/mike-bocon/" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
                 </div>
                 <div className="col">
             <p>ERIC</p>
-            <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
-            <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
+            <a id='github' href="https://github.com/EArias90" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
+            <a id='github' href="https://www.linkedin.com/in/ericarias90/" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
                 </div>
                 <div className="col">
             <p>ANDRE</p>
-            <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
-            <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
+            <a id='github' href="https://github.com/ChicoMangusta" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
+            <a id='github' href="https://www.linkedin.com/in/andre-torres-dev/" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
                 </div>
                 <div className="col">
             <p>BEN</p>
-            <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
+            <a id='github' href="" target='_blank'> <span> <FontAwesomeIcon icon={faGithub}/> </span> Add me on Github</a><br></br>
             <a id='github' href="#" target='_blank'> <span> <FontAwesomeIcon icon={faLinkedinIn}/> </span> Connect with me on Linkedin</a>
             </div>
             </div>
