@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **CODESK** 
 
-## Available Scripts
+![CODEESK](https://res.cloudinary.com/dqiighjqq/image/upload/v1591398625/CODESK_LOGO_smcfhi.png)
 
-In the project directory, you can run:
+______________________________________________________________
+## **Concept:**
+### Full-stack MERN website, functional and interactive.
+### This web application let the user add, edit and delete chunks of codes, such as 
+### *JAVASCRIPT, CSS and HTML*, and create a user ### data base of codes that can be used anytime the user needs it.
+_______________________________________________________________
 
-### `npm start`
+# **Technologies Used:**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![React](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400571/ract_logo_ra5ddw.jpg) 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![MongoDB](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/mongodb-inc-logo_hzg2qs.webp)
 
-### `npm test`
+![Express](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/express-logo_dqkffn.png) 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Node](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/node-js-logo_qujkuy.png) 
 
-### `npm run build`
+![JavaScript](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/logo-javascript_dsxj1k.svg) 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![CSS](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/css-logo_cmoeyq.png) 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![HTML](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/HTML5_Logo_256_tvdujd.png) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Heroku](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/heroku-1-logo_ngvyjp.png) 
 
-### `npm run eject`
+![FontAwesome](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400954/font_logo_dwfbb0.png) 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Bootsrap](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/boot_logo_zfe8mf.png) 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Cloudinary](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/cloud_logo_ewylge.svg) 
+______________________________________________________________________________________________
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# **Wireframe:**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Main Page](https://res.cloudinary.com/dqiighjqq/image/upload/v1591398625/Screen_Shot_2020-06-01_at_4.15.36_PM_o96e6t.png)
 
-## Learn More
+![Register Page](https://res.cloudinary.com/dqiighjqq/image/upload/v1591398625/Screen_Shot_2020-06-01_at_4.17.04_PM_ap5sfa.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![User page](https://res.cloudinary.com/dqiighjqq/image/upload/v1591398625/Screen_Shot_2020-06-01_at_4.16.09_PM_bqockc.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Add Code Page](https://res.cloudinary.com/dqiighjqq/image/upload/v1591398625/Screen_Shot_2020-06-01_at_4.16.40_PM_bsltou.png)
+_______________________________________________________________
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# **App Demo**
+## **Heroku link for the App:**
