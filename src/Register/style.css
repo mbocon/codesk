@@ -58,7 +58,7 @@ select {
 
 input[type="email"]:focus,
 input[type="password"]:focus {
-  color: var(--lush-green);
+  color: white;
   background: transparent;
   outline-width: 0;
 }
