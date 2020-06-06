@@ -96,6 +96,7 @@ class Posts extends Component {
 						type='textarea'
 						onChange={this.handleChange}
 					/>
+					<div className='dropdown-area'>
 					<div className='dropdown' onClick={this.toggleOpen}>
 						<button
 							className='btn btn-secondary dropdown-toggle'
@@ -105,7 +106,7 @@ class Posts extends Component {
 							aria-haspopup='true'>
 							Select Category
 						</button>
-						<div className={menuClass} aria-labelledby='dropdownMenuButton' onChange={this.handleChange} id='category'>
+						<div className={`${menuClass} select-category-dropdown`} aria-labelledby='dropdownMenuButton' onChange={this.handleChange} id='category'>
 							Javascript
 							<input type='radio' name='javascript' id='category' value='javascript' />
 							Jquery
@@ -121,8 +122,11 @@ class Posts extends Component {
 						</div>
 					</div>
 					<button className='btn btn-outline-success create-btn'>Submit</button>
+					</div>
 				</form>
+				<div className="footer">
 				<Footer />
+				</div>
 			</div>
 		);
 	}

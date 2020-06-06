@@ -73,7 +73,7 @@ class App extends Component {
 								<h4>
 									Welcome <span>{this.state.email}</span>
 								</h4>
-								<NavLink to='/userhome'>Go to homepage</NavLink>
+								<NavLink className='link-to-userhome' to='/userhome'>Go to homepage</NavLink>
 							</div>
 						) : (
 							<form className='form-inline my-2 my-lg-0'>
