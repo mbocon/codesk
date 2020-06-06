@@ -57,8 +57,8 @@ https://group-5-codesk.herokuapp.com/
 
 # Biggest struggles
 
-while (true) {
-    git()
+while (true) { <br>
+    git()<br>
 }
 
 
