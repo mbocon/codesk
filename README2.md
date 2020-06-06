@@ -6,7 +6,7 @@ ______________________________________________________________
 ## **Concept:**
 ### Full-stack MERN website, functional and interactive.
 ### This web application let the user add, edit and delete chunks of codes, such as 
-### *JAVASCRIPT, CSS and HTML*, and create a user ### data base of codes that can be used anytime the user needs it.
+### *JAVASCRIPT, CSS and HTML*, and create a user data base of codes that can be used anytime the user needs it.
 _______________________________________________________________
 
 # **Technologies Used:**
