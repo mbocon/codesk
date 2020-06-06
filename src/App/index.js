@@ -64,7 +64,7 @@ class App extends Component {
 							<span>
 								<FontAwesomeIcon icon={faRegistered} />
 							</span>
-							REGISTER
+							EGISTER
 						</Link>
 					</div>
 					<div className='user-home-rgt'>
@@ -107,7 +107,7 @@ class App extends Component {
 										<span>
 											<FontAwesomeIcon icon={faSignInAlt} />
 										</span>
-										LOGIN
+										LOGIN: 
 									</button>
 								</NavLink>
 							</form>

@@ -6,7 +6,7 @@ import logo from '../codeskLogo.png';
 import Card from '../Post Cards';
 import FilteredCard from '../Filtered Card'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRegistered, faUsers, faUserSecret, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../Footer';
 import SignUpForm from '../Register/signupform';
 import axios from 'axios';
@@ -107,12 +107,18 @@ export default class Home extends React.Component {
 					</div>
 					<div className='user-home-ctr'>
 						<Link to='/posts'>
-							<button className='btn btn-outline-success user-home-create-btn'>Create new</button>
+							<button className='btn btn-outline-success user-home-create-btn'>	
+							<span>
+							<FontAwesomeIcon icon={faDatabase} />
+							</span>Create new</button>
 						</Link>
 					</div>
 					<div className='user-home-rgt'>
 						<h4 className='user-home-h4'>Welcome user</h4>
 						<button onClick={this.handleLogOut} className='btn btn-outline-danger user-home-btn'>
+						<span>
+						<FontAwesomeIcon icon={faSignOutAlt} />
+						</span>
 							Logout
 						</button>
 					</div>
