@@ -64,7 +64,7 @@ class App extends Component {
 							<span>
 								<FontAwesomeIcon icon={faRegistered} />
 							</span>
-							REGISTER
+							EGISTER
 						</Link>
 					</div>
 					<div className='user-home-rgt'>
@@ -73,7 +73,7 @@ class App extends Component {
 								<h4>
 									Welcome <span>{this.state.email}</span>
 								</h4>
-								<NavLink to='/userhome'>Go to homepage</NavLink>
+								<NavLink className='link-to-userhome' to='/userhome'>Go to homepage</NavLink>
 							</div>
 						) : (
 							<form className='form-inline my-2 my-lg-0'>
@@ -107,7 +107,7 @@ class App extends Component {
 										<span>
 											<FontAwesomeIcon icon={faSignInAlt} />
 										</span>
-										LOGIN
+										LOGIN: 
 									</button>
 								</NavLink>
 							</form>
@@ -132,9 +132,9 @@ class App extends Component {
 							</span>
 						</div>
 					</div>
-						<div class="foot-container">
+				</div>
+				<div className="foot-container">
 					<Footer />
-					</div>
 				</div>
 			</div>
 		);

@@ -29,6 +29,7 @@
 
 .user-home-h4 {
     margin-right: 20px;
+    
 }
 
 .user-home-create-btn {
@@ -47,7 +48,7 @@
 }
 
 .user-home-content {
-    background: silver;
+    background-color: rgba(122, 200, 188, 0.25);
     width: 95%;
 }
 
@@ -86,8 +87,14 @@
     padding: 1%;
 }
 
-
-
-.btn-orange {
-    background-color: orange;
+.dropdown-item:hover{
+    background-color: #7ac8bc;
 }
+
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    right: 40%;
+    margin-top: 400px;
+  }

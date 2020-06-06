@@ -7,6 +7,7 @@ import logo from "../codeskLogo.png";
 import Footer from "../Footer"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+// import Footer from '../Footer';
 
 class Register extends Component {
   render() {
@@ -34,12 +35,11 @@ class Register extends Component {
         {/* Sign Up form  */}
           <div className="register-container container container-fluid">
             <SignUpForm />
-            
+            {/* <div class="foot-container">
+					<Footer /> */}
+					{/* </div> */}
                 </div>
                     </div>
-
-
-
         
     );
   }

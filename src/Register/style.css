@@ -1,5 +1,85 @@
-.container {
-    background-color: rgb(162, 186, 238);
-    margin: auto;
+
+/*=========================
+    Import and Variables
+==========================*/
+:root {
+  --white-color: #ffffff;
+  --lush-green: #7ac8bc;
+  --hot-pink: #e74c83;
+
+  /*Additional Colors*/
+  --light-blue: #3f61cf;
+  --gray-light-green: #def2f1;
 }
+
+/*==================================
+=    Reset Browser Default Behavior 
+===================================*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+/*//////////////////////////////////
+//        Page- Form
+//////////////////////////////////*/
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  form {
+    width: 63vw;
+    color: var(--hot-pink);
+    /* background: #d5ebe8; */
+    padding: 5rem;
+  }
+
+/* input[type='email'],
+input[type='password'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 3.5vh;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-bottom: 1px solid #d3d1d1;
+} */
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  color: var(--lush-green);
+  background: transparent;
+  outline-width: 0;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    width: 40%;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+  }
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 

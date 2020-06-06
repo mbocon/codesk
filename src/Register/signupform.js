@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 import axios from 'axios';
 let endpoint;
 if(process.env.NODE_ENV === 'development'){
@@ -9,7 +7,6 @@ if(process.env.NODE_ENV === 'development'){
 } else {
     endpoint = '/'
 }
-
 
 class SignUpForm extends Component {
 
@@ -61,13 +58,12 @@ class SignUpForm extends Component {
               })
           })
           .catch(err => console.log(err))
+          window.location.href='/userhome'
   }
-
-
 
   render () {
     return (
-      <div className="container">
+      <div className="form-container">
         <h1 className="display-3">Register!</h1>
           
           <form>
@@ -80,14 +76,9 @@ class SignUpForm extends Component {
                   type='email' 
                   className='form-control mx-sm-3' 
                   placeholder='Enter your Email' 
-                  id="inputEmail3"
                   name='email' 
                   onChange={this.handleInput} />
               </div>
-              </div>
-
-
-              <div class="form-group-row">
                 <label
                 htmlFor='password'>PASSWORD
                 </label>
@@ -95,20 +86,13 @@ class SignUpForm extends Component {
                 <input 
                 type='password' 
                 className="form-control mx-sm-3" 
-                aria-describedby="passwordHelpBlock"
-                placeholder='Choose your Password' 
+                placeholder='Choose your Password'
                 name='password' 
                 onChange={this.handleInput} />
-                <small id="passwordHelpBlock" class="text-muted">
-                  Must be 8-20 characters long.
-                </small>
                 </div>
                 </div>
           <br />
             <Link to="/userhome">
-            <span>
-                <FontAwesomeIcon icon={faSignInAlt} />
-              </span>
               <input 
               value='Submit' 
               type='submit' 

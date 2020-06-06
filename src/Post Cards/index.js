@@ -47,6 +47,7 @@ class Card extends Component {
 	render() {
 		const { text } = this.props.post;
 		const { handleDelete, index, id } = this.props;
+		console.log(this.props, 'is the card props')
 		if (this.state.isEditing === true) {
 			return (
 				<form onSubmit={e => this.saveChanges(e, id)}>
@@ -57,7 +58,8 @@ class Card extends Component {
 		}
 		return (
 			<div className='card'>
-				<h3>{text}</h3>
+			<h3>{this.props.post.category}</h3>
+				<h6>{text}</h6>
 				<button className='btn btn-outline-danger' onClick={() => handleDelete(id, index)}>
 					Delete
 				</button>
