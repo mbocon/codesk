@@ -81,6 +81,7 @@ class SignUpForm extends Component {
               </div>
                 <label
                 htmlFor='password'>PASSWORD
+                
                 </label>
                 <div class="col-sm-10">
                 <input 
