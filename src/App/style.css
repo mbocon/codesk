@@ -22,9 +22,13 @@
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .link-to-userhome{
   color: #7ac8bc;
 }
+=======
+
+>>>>>>> 7712e90bc8d4cb45002521742b45364ee4d9c21b
 h1 {
   text-align: center;
   color: var(--bright-pink)
@@ -79,4 +83,10 @@ h1 {
     bottom: "0";
     height: "60px";
     width: "100%";
+  }
+/* Footer style */
+  .foot-container {
+    display: flex;
+    min-height: 200vh;
+
   }

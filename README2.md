@@ -32,7 +32,7 @@ _______________________________________________________________
 ![Bootsrap](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400961/boot_logo_zfe8mf.png) 
 
 ![Cloudinary](https://res.cloudinary.com/dqiighjqq/image/upload/v1591400941/cloud_logo_ewylge.svg) 
-______________________________________________________________________________________________
+_______________________________________________________________
 
 # **Wireframe:**
 
