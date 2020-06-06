@@ -107,7 +107,7 @@ class App extends Component {
 										<span>
 											<FontAwesomeIcon icon={faSignInAlt} />
 										</span>
-										LOGIN
+										LOGIN: 
 									</button>
 								</NavLink>
 							</form>
