@@ -46,4 +46,22 @@ _______________________________________________________________
 _______________________________________________________________
 
 # **App Demo**
-## **Heroku link for the App:**
+https://group-5-codesk.herokuapp.com/
+
+# **User Stories**
+
+·     Users can see a collection of cards containing different code bocks submitted from users of the site.
+·     Users can register and sign up an account to then create, edit, update, and delete their uploaded blocks of code.
+·     Users will have the ability to save blocks of code that they like and wish to share with friends or discuss with other users on the site through the *comment feature.  
+
+
+# Biggest struggles
+
+while (true) {
+    git()
+}
+
+
+# Trello board
+
+![Image](https://trello.com/b/GCYm5uAD/project-3-code-notes)
