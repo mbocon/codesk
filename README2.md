@@ -64,4 +64,4 @@ while (true) {
 
 # Trello board
 
-![Image](https://trello.com/b/GCYm5uAD/project-3-code-notes)
+https://trello.com/b/GCYm5uAD/project-3-code-notes
