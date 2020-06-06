@@ -37,11 +37,11 @@
   form {
     width: 63vw;
     color: var(--hot-pink);
-    background: #d5ebe8;
+    /* background: #d5ebe8; */
     padding: 5rem;
   }
 
-input[type='email'],
+/* input[type='email'],
 input[type='password'],
 select {
   width: 100%;
@@ -54,7 +54,7 @@ select {
   box-sizing: border-box;
   background-color: transparent;
   border-bottom: 1px solid #d3d1d1;
-}
+} */
 
 input[type="email"]:focus,
 input[type="password"]:focus {

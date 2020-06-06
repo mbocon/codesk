@@ -90,3 +90,11 @@
 .dropdown-item:hover{
     background-color: #7ac8bc;
 }
+
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    right: 40%;
+    margin-top: 400px;
+  }

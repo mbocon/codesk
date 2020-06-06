@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Footer from '../Footer';
 import axios from 'axios';
 let endpoint;
 if(process.env.NODE_ENV === 'development'){
@@ -100,9 +99,6 @@ class SignUpForm extends Component {
               className='btn btn-outline-success' onClick={this.handleSignUp} />
                 </Link>
           </form>
-          <div class="foot-container">
-					<Footer />
-					</div>
       </div>
     )
   }

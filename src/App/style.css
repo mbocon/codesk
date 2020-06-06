@@ -70,7 +70,7 @@ h1 {
     transform: rotateY(180deg);
   }
 
-  .Footer {
+  /* .Footer {
     background-color: "#F8F8F8";
     border-top: "1px solid #E7E7E7";
     text-align: "center";
@@ -80,10 +80,12 @@ h1 {
     bottom: "0";
     height: "60px";
     width: "100%";
-  }
+  } */
 /* Footer style */
   .foot-container {
     display: flex;
-    min-height: 200vh;
-
+    flex-direction: column;
+    bottom: 0;
+    right: 40%;
+    margin-top: 500px;
   }
