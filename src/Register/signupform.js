@@ -66,7 +66,7 @@ class SignUpForm extends Component {
       <div className="form-container">
         <h1 className="display-3">Register!</h1>
           
-          <form>
+          <form className="catch-all">
             <div class="form-group row">
                 <label 
                 htmlFor='email'>EMAIL

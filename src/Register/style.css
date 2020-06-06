@@ -34,8 +34,8 @@
     justify-content: space-around;
     align-items: center;
   }
-  form {
-    width: 63vw;
+.catch-all {
+    width: 57vw;
     color: var(--hot-pink);
     /* background: #d5ebe8; */
     padding: 5rem;
